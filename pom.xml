@@ -6,7 +6,7 @@
     <groupId>groupId</groupId>
     <artifactId>Diagrammatize_Spark</artifactId>
     <version>1.0</version>
-    <inceptionYear>2017</inceptionYear>
+    <inceptionYear>2018</inceptionYear>
     <packaging>jar</packaging>
 
     <properties>
