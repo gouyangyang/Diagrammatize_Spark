@@ -5,7 +5,7 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object Accumulator1 {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("Accumulator1").setMaster("local")
+    val conf = new SparkConf().setAppName("Accumulator1").setMaster("local[1]")
     val sc = new SparkContext(conf)
     val myAcc = new MyAccumulator
     sc.register(myAcc, "myAcc")
