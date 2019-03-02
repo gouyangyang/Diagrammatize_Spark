@@ -4,6 +4,7 @@ import org.apache.spark.sql.SparkSession
 /**
   * @author gouyangyang on 2018/10/15/015 20:00
   */
+
 object WordCount {
   def main(args: Array[String]): Unit = {
     // val conf=new SparkConf().setAppName("测试").setMaster("local[2]")
