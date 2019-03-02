@@ -14,6 +14,10 @@
         <proto.path>${project.basedir}/src/main/proto</proto.path>
         <proto.file>*.proto</proto.file>
         <proto.gene>${project.basedir}/src/main/java/gen-java</proto.gene>
+        <spark.version>2.0.1</spark.version>
+        <!--<spark.version>2.2.1</spark.version>-->
+        <kafka.version>1.1.0</kafka.version>
+        <commons-lang.version>2.6</commons-lang.version>
     </properties>
 
     <dependencies>
@@ -81,9 +85,12 @@
             <artifactId>scopt_2.10</artifactId>
             <version>3.2.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-kafka-0-10_2.11</artifactId>
+            <version>2.2.0</version>
+        </dependency>
     </dependencies>
-
     <build>
         <resources>
             <resource>
