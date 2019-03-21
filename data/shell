@@ -1,0 +1,8 @@
+sh /opt/software/spark2/bin/spark-submit \
+ --class org.apache.spark.examples.SparkPi \
+ --master spark://hadoop:7077 \
+ --executor-memory 1G \
+ --total-executor-cores 2 \
+ /opt/software/spark2/examples/jars/spark-examples_2.11-2.0.0.jar \
+ 100
+
