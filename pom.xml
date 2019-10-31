@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <spark.version>2.0.1</spark.version>
+        <spark.version>2.4.4</spark.version>
         <proto.path>${project.basedir}/src/main/proto</proto.path>
         <proto.file>*.proto</proto.file>
         <proto.gene>${project.basedir}/src/main/java/gen-java</proto.gene>
