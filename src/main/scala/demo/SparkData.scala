@@ -7,7 +7,7 @@ import org.apache.spark.sql.SparkSession
   */
 object SparkData {
   def main(args: Array[String]): Unit = {
-    val spark = SparkSession.builder().appName("fileRead").getOrCreate()
+    val spark = SparkSession.builder().appName("SparkData").getOrCreate()
     val data1 = spark.read
       // 推断数据类型
       .option("inferSchema", true)
