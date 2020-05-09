@@ -17,7 +17,7 @@ object WordCount {
     val wordCount  = rdd.flatMap(_.split(" ")).map(x=>(x,1)).reduceByKey(_+_)
     val wordsort=wordCount.map(x=>(x._2,x._1)).sortByKey(false).map(x=>(x._2,x._1))
     // hdfs 写入的时候没有权限 hadoop fs -chmod 777 /Diagrammatize_Spark
-    wordsort.saveAsTextFile("hdfs://hadoop:9000/Diagrammatize_Spark/Two/Wordcount/")
+    wordsort.saveAsTextFile("hdfs://hadoop:9000/Diagrammatize_Spark/Two/Wordcount2/")
     wordCount.foreach(println)
     sc.stop()
   }
