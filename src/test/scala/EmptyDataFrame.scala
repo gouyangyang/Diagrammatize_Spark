@@ -31,7 +31,7 @@ object EmptyDataFrame {
     val emptyDf1 = spark.createDataFrame(spark.sparkContext.emptyRDD[Row], schema1)
     emptyDf1.show
     //还有一种空的DataFrame，没有任何行任何列
-    spark.emptyDataFrame.show
+    spark.emptyDataFrame.show()
     spark.stop()
   }
 }
