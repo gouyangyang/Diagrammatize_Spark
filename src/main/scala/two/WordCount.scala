@@ -2,12 +2,10 @@ package two
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-
 /**
   * @author gouyangyang on 2018/12/17/017 22:47
   */
 object WordCount {
-
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setMaster("local[2]").setAppName("WordCount")
     val sc = new SparkContext(conf)
