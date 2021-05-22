@@ -3,10 +3,9 @@ package demo
 import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.api.scala.extensions._
 /**
-  * @author gouyangyang on 2018/10/15/015 20:00
+  * @author gouyangyang on 2018/10/15/015 20:00  测试
   */
 object Main {
-
 //  case class Point(x: Double, y: Double)
 //
 //  def main(args: Array[String]): Unit = {
