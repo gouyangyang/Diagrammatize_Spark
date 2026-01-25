@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.twosum;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,6 +14,20 @@ import java.util.Map;
  * 找出数组中和为目标值 target 的那两个整数，并返回它们的数组下标。
  * 你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。
  *  https://leetcode.cn/problems/two-sum/description/
+ */
+
+
+/**
+ * 核心思想:  使用hashMap 一次遍历解决。
+ * 1.创建 HashMap:用于存储已遍历过的元素值和对应的下标。
+ * 2.遍历数组:对于每个元素,计算他与目标值的差值。
+ * 3.查找配对:检查差值是否已经在HashMap中。
+ * 4.返回结果:如果找到配对,立即返回两个下标。
+ * 5.存储当前元素:将当前元素加入到HashMap中，继续遍历。
+ *
+ *
+ *
+ *
  */
 public class TwoSum {
 
