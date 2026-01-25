@@ -5,6 +5,7 @@ package leetcode.solution;
  * @version 1.0
  * @date 2026/1/12 0:27
  */
+
 public class SolutionTest {
     public static void main(String []args){
         Solution test = new Solution();

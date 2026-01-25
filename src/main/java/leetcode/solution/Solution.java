@@ -5,6 +5,7 @@ package leetcode.solution;
  * @version 1.0
  * @date 2026/1/12 0:03
  */
+
 public class Solution {
     // 实现思路，交替从两个字符串中取字符，知道其中一个字符串用完，将剩余的字符串加到尾部。
     public String mergeAlternately(String word1, String word2) {
