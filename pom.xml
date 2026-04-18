@@ -7,7 +7,10 @@
     <artifactId>Diagrammatize_Spark</artifactId>
     <version>1.0</version>
     <inceptionYear>2018</inceptionYear>
-    <packaging>jar</packaging>
+    <modules>
+        <module>ligang</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <properties>
         <spark.version>2.0.1</spark.version>
