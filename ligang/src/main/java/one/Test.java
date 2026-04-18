@@ -12,7 +12,7 @@ public class Test {
         System.out.println(a3==10);
 
 
-        // 测试  git
+        // 测试  git 是否能提交代码
 
 
 
